@@ -1,0 +1,46 @@
+What is Python?
+Python is a High Level ,interpreted ,Dynamically typed, Object oriented Programming Language.
+•High Level Programming Language:(human understandable language)
+High Level programming Language is  used for writing programs or software which could be easy to use, understood by the humans and computer.
+•Dynamically Typed Programming Language:
+These are the languages that donot require any predefined data type for any variable as it is interpreted by machine itself at runtime.
+
+•Interpreted Programming Language:( Line by Line)
+         The Interpreter reads the source code Line by Line and execute each line as it is read.
+   Difference Between Compiler and Interpreter:
+     The compiler and Interpreter,both have similar work to perform.compiler and interpreter convert the source code(HLL)to Machine code(Understand by computer).
+     Compiler scans the entire program first and translate it into machine code (or) compiler translates the entire code in single run.
+     Interpreter Scans line by line program and convert into machine code(or)Interpreter translates the entire code in line by line.
+
+
+History of python
+Python was developed by Guido van rossam in 1989 while working at national research institute at Netherlands.
+But officially python was made available to public in 1991.The official date of birth of python is: feb 20th 1991.
+The name python was selected from TV show “the complete monthy python’s circus” which was broadcasted in BBC from 1969 to 1979.
+Variables in Python
+Variables are containers for storing data values.
+Variables is a name that is  used to refer memory location.
+In the memory location , we add label to register ,that label stores data/values.
+In python variable do not need to be declared with any particular type because it is dynamically typed programming language.
+Example program:
+x=10
+print(x) //output:10
+print(type(x))//output:class<int>
+
+Type Casting:
+Type Casting is the method to convert the python variable datatype into a certain datatype in order to perform required operation by users.
+•	Implicit type conversion
+In python implicitly type conversion is automatically performed. During the implicit type conversion the user is not supposed to mention any specific data type during the conversion.
+ x=10
+print(“a={a} and data type={type(a)}”) 
+output:
+ a=10 and data type=<class ‘int’>
+•	Explicit type conversion
+   In this method, python needs user involvement to convert the variable datatype into the required data type.
+x=5
+print(x)  // 5
+y=float(x)
+print(y) //5.0
+z=str(x) //convert int to str
+print(z) //”5”
+
